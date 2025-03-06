@@ -65,11 +65,11 @@ server.use(middlewares);
 server.use(router);
 const PORT = process.env.PORT || 3001;
 
-server.listen(PORT, () => {
-    console.log(`JSON Server is running on port ${PORT}`);
-});
+// server.listen(PORT, () => {
+//     console.log(`JSON Server is running on port ${PORT}`);
+// });
 
 app.listen(PORT, () => {
   connectToDB();
-  console.log(`🚀 Server is running at http://localhost:${PORT}`);
+  console.log(`🚀 Server is running at http://at server :${PORT}`);
 });
