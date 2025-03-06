@@ -1,4 +1,4 @@
-
+/*
 let container = document.getElementById("container")
 
 let URL = "http://localhost:1818/products"
@@ -56,4 +56,4 @@ function displayData(data){
     })
      
 }
-
+*/
