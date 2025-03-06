@@ -14,6 +14,10 @@
 // app.use("/todos", todoRouter)
 
 
+
+
+
+
 // app.listen(PORT, ()=>{
 //     connectToDB()
 //     console.log(`Server is running at http://localhost:${PORT}`)
@@ -29,6 +33,7 @@
 
 
 const express = require("express");
+const jsonServer = require('json-server');
 const { connectToDB } = require("./config/dbConfig");
 const { userRouter } = require("./routes/user.routes");
 const { todoRouter } = require("./routes/todo.routes");
@@ -50,6 +55,19 @@ app.use(
 app.use(express.json());
 app.use("/users", userRouter);
 app.use("/todos", todoRouter);
+
+////db 
+const server = jsonServer.create();
+const router = jsonServer.router('db.json'); // This points to your existing db.json file
+const middlewares = jsonServer.defaults();
+
+server.use(middlewares);
+server.use(router);
+const PORT = process.env.PORT || 3001;
+
+server.listen(PORT, () => {
+    console.log(`JSON Server is running on port ${PORT}`);
+});
 
 app.listen(PORT, () => {
   connectToDB();
