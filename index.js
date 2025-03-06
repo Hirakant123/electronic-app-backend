@@ -40,7 +40,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: [/http:\/\/localhost:\d{4,5}$/], // Regex for localhost on any port
+    origin: "*", // Regex for localhost on any port
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
