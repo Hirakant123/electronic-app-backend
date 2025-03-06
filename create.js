@@ -1,5 +1,5 @@
 
-let URL = "http://localhost:1818/products"
+/*let URL = "http://localhost:1818/products"
 
 document.querySelector("form").addEventListener("submit", function () {
     getData()
@@ -39,3 +39,4 @@ async function getData() {
 window.location.href = "index.html";
 
 }
+*/
