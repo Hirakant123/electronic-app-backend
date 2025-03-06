@@ -1,0 +1,171 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "Refrigerator",
+      "name": "Intellifresh Pro 327L 2 Star Convertible Frost Free Double-Door Refrigerator",
+      "image": "https://whirlpoolindia.vtexassets.com/arquivos/ids/165817-220-220?v=638136821146070000&width=220&height=220&aspect=true",
+      "mrp": 45000,
+      "discount": "25% OFF",
+      "price": 36760,
+      "offers": [
+        "No Cost EMI X 18 Months*",
+        "10% Bank Cashback upto ₹5000*T&C",
+        "Get Exchange up to ₹9900/-*T&C"
+      ],
+      "link": "refrigerator.html"
+    },
+    {
+      "id": 2,
+      "category": "Refrigerator",
+      "name": "Wseries 677L Convertible Frost Free Four-Door Refrigerator with Water Dispenser",
+      "image": "https://whirlpoolindia.vtexassets.com/arquivos/ids/159402-220-220?v=637789977366600000&width=220&height=220&aspect=true",
+      "mrp": 255000,
+      "discount": "45% OFF",
+      "price": 178500,
+      "offers": [
+        "No Cost EMI X 24 Months*",
+        "15% Bank Cashback upto ₹7500*T&C",
+        "Get Exchange up to ₹9900/-*T&C"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Refrigerator",
+      "name": "Wseries 570L Frost-Free Side by Side Refrigerator two door side by door",
+      "image": "https://whirlpoolindia.vtexassets.com/arquivos/ids/162645-220-220?v=637933732683300000&width=220&height=220&aspect=true",
+      "mrp": 117750,
+      "discount": "52% OFF",
+      "price": 50460,
+      "offers": [
+        "No Cost EMI X 24 Months*",
+        "15% Bank Cashback upto ₹7500*T&C",
+        "Get Exchange up to ₹9900/-*T&C"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Refrigerator",
+      "name": "Intellifresh Pro 325L 3 Star Elite+ Frost Free Bottom-Mount Refrigerator",
+      "image": "https://whirlpoolindia.vtexassets.com/arquivos/ids/159452-220-220?v=637795124056800000&width=220&height=220&aspect=true",
+      "mrp": 49300,
+      "discount": "33% OFF",
+      "price": 23650,
+      "offers": [
+        "No Cost EMI X 18 Months*",
+        "10% Bank Cashback upto ₹5000*T&C",
+        "Get Exchange up to ₹9900/-*T&C"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Washing Machine",
+      "name": "8 Kg Semi Automatic with Extra Soak time - Ace Super Soak washing machine",
+      "image": "https://whirlpoolindia.vtexassets.com/arquivos/ids/169514-800-auto?v=638700095324070000&width=800&height=auto&aspect=true",
+      "mrp": 16700,
+      "discount": "22% OFF",
+      "price": 13020,
+      "offers": [
+        "No Cost EMI X 6 Months*",
+        "5% Bank Cashback upto ₹2500*T&C",
+        "Get Exchange up to ₹9900/-*T&C"
+      ],
+      "link": "Wmachine.html"
+    },
+    {
+      "id": 6,
+      "category": "Washing Machine",
+      "name": "Xpert Care 7kg 5 Star Front Load Washing Machine with in-built Heater",
+      "image": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167788-800-auto?v=638379679316170000&width=800&height=auto&aspect=true",
+      "mrp": 45100,
+      "discount": "22% OFF",
+      "price": 35270,
+      "offers": [
+        "No Cost EMI X 18 Months*",
+        "10% Bank Cashback upto ₹5000*T&C",
+        "Get Exchange up to ₹9900/-*T&C"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Washing Machine",
+      "name": "Whitemagic Royal 7kg 5 Star Fully Automatic Top Load Washing Machine",
+      "image": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167786-220-220?v=638378872335800000&width=220&height=220&aspect=true",
+      "mrp": 19550,
+      "discount": "33% OFF",
+      "price": 14790,
+      "offers": [
+        "No Cost EMI X 12 Months*",
+        "5% Bank Cashback upto ₹2500*T&C",
+        "Get Exchange up to ₹9900/-*T&C"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Washing Machine",
+      "name": "Xpert Care 7kg 5 Star Front-Load Washing Machine with Ozone Air front load machine",
+      "image": "https://whirlpoolindia.vtexassets.com/arquivos/ids/167574-220-220?v=638320917724870000&width=220&height=220&aspect=true",
+      "mrp": 47100,
+      "discount": "22% OFF",
+      "price": 36540,
+      "offers": [
+        "No Cost EMI X 12 Months*",
+        "5% Bank Cashback upto ₹2500*T&C",
+        "Get Exchange up to ₹9900/-*T&C"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Microwave",
+      "name": "30L-OTG (20% Faster Cooking) best Microwaves whirlpool's best quality microwave",
+      "image": "https://whirlpoolindia.vtexassets.com/arquivos/ids/156062-800-auto?v=637774141531330000&width=800&height=auto&aspect=true",
+      "mrp": 10790,
+      "discount": "34% OFF",
+      "price": 7110,
+      "offers": [
+        "No Cost EMI X 6 Months*",
+        "5% Bank Cashback upto ₹2500*T&C"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Microwave",
+      "name": "Magicook Pro 29L Convection Microwave (Air-Fryer with Baking Plate & Rotisserie)",
+      "image": "https://whirlpoolindia.vtexassets.com/arquivos/ids/161142-800-auto?v=637894860905770000&width=800&height=auto&aspect=true",
+      "mrp": 23150,
+      "discount": "33% OFF",
+      "price": 15490,
+      "offers": [
+        "No Cost EMI X 6 Months*",
+        "5% Bank Cashback upto ₹2500*T&C"
+      ],
+      "link": "micro.html"
+    },
+    {
+      "id": 11,
+      "category": "Microwave",
+      "name": "Magicook Pro 25L Grill Microwave (24 Auto-Cook Menus) best quality microwave",
+      "image": "https://whirlpoolindia.vtexassets.com/arquivos/ids/156092-800-auto?v=637774177836570000&width=800&height=auto&aspect=true",
+      "mrp": 11375,
+      "discount": "12% OFF",
+      "price": 9990,
+      "offers": [
+        "No Cost EMI X 6 Months*",
+        "5% Bank Cashback upto ₹2500*T&C"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Microwave",
+      "name": "Magicook Pro 20L Solo Microwave (6-Power Levels)top quality microwave",
+      "image": "https://whirlpoolindia.vtexassets.com/arquivos/ids/156063-800-auto?v=637774141543230000&width=800&height=auto&aspect=true",
+      "mrp": 8775,
+      "discount": "27% OFF",
+      "price": 6390,
+      "offers": [
+        "No Cost EMI X 6 Months*",
+        "5% Bank Cashback upto ₹2500*T&C"
+      ]
+    }
+  ]
+}

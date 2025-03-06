@@ -1,57 +1,59 @@
-// const express = require("express")
-// const {connectToDB} = require('./config/dbConfig')
-// const {userRouter} = require("./routes/user.routes")
-// const {todoRouter} = require("./routes/todo.routes")
-// const cors = require("cors")
-// require("dotenv").config()
 
-// const PORT = process.env.port || 5000
-// const app = express()
+let container = document.getElementById("container")
 
-// app.use(express.json())
-// app.use(cors())
-// app.use("/users", userRouter)
-// app.use("/todos", todoRouter)
+let URL = "http://localhost:1818/products"
 
+async function getData(){
+ try {
+     let res = await fetch(URL)
+     let data = await res.json();
+     console.log(data)
+     displayData(data)
+ } catch (error) {
+     console.log(error)
+ }
+}
 
-// app.listen(PORT, ()=>{
-//     connectToDB()
-//     console.log(`Server is running at http://localhost:${PORT}`)
-// })
+getData()
 
+function displayData(data){
 
+  container.innerHTML = ""
+    data.forEach((ele)=>{
 
+        let card = document.createElement("div");
 
+        let category = document.createElement("h2");
+        category.innerText = ele.category
+   
+        let image = document.createElement("img");
+            image.src = ele.image
+   
+        let price = document.createElement("p");
+            price.innerText = ele.price
 
+          let title = document.createElement("h4")
+            title.innerText = ele.title
 
+            let rating = document.createElement("p");
+            rating.innerHTML = ele.rating.rate
 
+            let btn = document.createElement("button")
+            btn.innerText = "DELETE"
 
+            btn.addEventListener("click", async function(){
+               let res = await fetch(`${URL}/${ele.id}`,{
+                method : "DELETE"
+               })
 
+               getData()
+        
 
-const express = require("express");
-const { connectToDB } = require("./config/dbConfig");
-const { userRouter } = require("./routes/user.routes");
-const { todoRouter } = require("./routes/todo.routes");
-const cors = require("cors");
-require("dotenv").config();
+            })
 
-const PORT = process.env.PORT || 5000;
-const app = express();
+            card.append(image, price, title, category, rating, btn)
+            container.append(card)
+    })
+     
+}
 
-app.use(
-  cors({
-    origin: "*", // Regex for localhost on any port
-    credentials: true,
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    allowedHeaders: ["Content-Type", "Authorization"],
-  })
-);
-
-app.use(express.json());
-app.use("/users", userRouter);
-app.use("/todos", todoRouter);
-
-app.listen(PORT, () => {
-  connectToDB();
-  console.log(`🚀 Server is running at http://localhost:${PORT}`);
-});
